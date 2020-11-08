@@ -199,32 +199,6 @@ var grids = {
 } 
 
 
-var cols = {
-    col1: getColumn(0),
-    col2: getColumn(1),
-    col3: getColumn(2),
-    col4: getColumn(3),
-    col5: getColumn(4),
-    col6: getColumn(5),
-    col7: getColumn(6),
-    col8: getColumn(7),
-    col9: getColumn(8),
-}
-
-var rows = {
-    row1: grid[0],
-    row2: grid[1],
-    row3: grid[2],
-    row4: grid[3],
-    row5: grid[4],
-    row6: grid[5],
-    row7: grid[6],
-    row8: grid[7],
-    row9: grid[8],
-    
-}
-
-
 function getGrid(startX, startY) {
 //Returns an array of numbers in corrisponding 3x3 grid    
 let gridNums = []; 
@@ -542,8 +516,8 @@ function findMissingNums(array){
             missingNums.push(i);
         }
     }
-    //console.log("original : " + JSON.stringify(array));
-    //console.log("missing  : " + JSON.stringify(missingNums));
+    console.log("original : " + JSON.stringify(array));
+    console.log("missing  : " + JSON.stringify(missingNums));
     return missingNums;
 }
 
