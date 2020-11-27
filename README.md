@@ -6,7 +6,7 @@ Although this project is working in terms of solving the puzzles it is incomplet
 
 Please remember this is an unfinished project, you can use it https://mikehulme.co.uk/Sudoku/sudoku.html
 
-Just keep clicking the three buttons in any order, each button looks for a number in a different way.
+Just keep clicking the three buttons in any order, each button looks to solve the next number in a different way.
 
 if you want to change the puzzle you, for now you need to change the array in the scripts file. a 0 represents an empty square.
 
@@ -17,3 +17,4 @@ if you want to change the puzzle you, for now you need to change the array in th
 * Better user interface
 * Better explanation of how the last number was solved
 * Implement visualization of the solve
+* Make it responsive
